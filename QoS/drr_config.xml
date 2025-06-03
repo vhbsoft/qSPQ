@@ -1,0 +1,27 @@
+<xml>
+    <traffic>
+        <filters>
+            <filter>
+                <des_port>6000</des_port>
+            </filter>
+        </filters>
+        <priority>3</priority>
+    </traffic>
+    <traffic>
+        <filters>
+            <filter>
+                <des_port>4000</des_port>
+            </filter>
+        </filters>
+        <priority>2</priority>
+    </traffic>
+    <traffic>
+        <filters>
+            <filter>
+                <des_port>5000</des_port>
+            </filter>
+        </filters>
+        <priority>1</priority>
+    </traffic>
+    <quanta>300</quanta>
+</xml>
